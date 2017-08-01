@@ -71,8 +71,8 @@ int main(){
               break;
 
             case 'p':
-							gameState = PAUSE;
-							break;
+	      gameState = PAUSE;
+	      break;
 
             case 'r':
               setupSnake(&snake, sbegX, sbegY);
